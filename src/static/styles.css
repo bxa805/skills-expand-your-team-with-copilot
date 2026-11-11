@@ -209,65 +209,6 @@ section h3 {
   justify-content: center;
 }
 
-.activity-card:focus {
-  outline: 3px solid var(--primary-light);
-  outline-offset: 2px;
-}
-
-.activity-sharing {
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border-light);
-}
-
-.share-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.share-button {
-  display: inline-flex;
-  align-items: center;
-  min-height: 36px;
-  padding: 6px 10px;
-  border: 1px solid var(--primary);
-  border-radius: 4px;
-  background-color: var(--surface);
-  color: var(--primary);
-  font-size: 0.8rem;
-  text-decoration: none;
-}
-
-.share-button:hover {
-  background-color: var(--primary);
-  color: var(--primary-text);
-}
-
-.share-button:focus-visible,
-.share-link:focus-visible {
-  outline: 2px solid var(--primary-light);
-  outline-offset: 2px;
-}
-
-.activity-sharing .share-status {
-  margin: 6px 0 0;
-  color: var(--text-secondary);
-  font-size: 0.8rem;
-}
-
-.share-status:empty {
-  display: none;
-}
-
-.share-link {
-  width: 100%;
-  margin-top: 6px;
-  padding: 6px;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-}
-
 /* Activity Tag */
 .activity-tag {
   position: absolute;
